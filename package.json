@@ -30,8 +30,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint .",
-    "lint:fix": "prettier src --write && eslint --fix",
+    "lint": "eslint src",
+    "lint:fix": "prettier src --write && eslint src --fix",
     "test": "jest",
     "build": "rm -rf esm cjs && tsc"
   },
